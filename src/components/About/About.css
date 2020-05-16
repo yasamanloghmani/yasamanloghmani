@@ -18,6 +18,7 @@
     width:300px;
     height: auto;
     background: #d2edee;
+    border: 8px solid #d2edee;
     box-shadow:  20px 20px 60px #a2b6b7, 
     -20px -20px 60px #ffffff;
 }

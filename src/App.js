@@ -3,13 +3,13 @@ import Fullpage, { FullPageSections, FullpageSection, FullpageNavigation, Fullpa
 import Header from './components/Header/Header';
 import NavBar from './components/NavBar/NavBar';
 import About from './components/About/About';
+import Skills from './components/Skills/Skills';
 import './App.css';
 
 export default class App extends Component {
   render () {
     return (
       <div>
-        
         <NavBar />
         <Fullpage>
         <FullpageNavigation />
@@ -27,9 +27,17 @@ export default class App extends Component {
             <About />
           </FullpageSection>
           <FullpageSection style={{
-            backgroundColor: '#d0f5fc',
+            backgroundColor: '#e6faf6',
             padding: '1em',
-          }}>3</FullpageSection>
+          }}>
+            <Skills />
+          </FullpageSection>
+          <FullpageSection style={{
+            backgroundColor: '#d2edee',
+            padding: '1em',
+          }} >
+            projectss
+          </FullpageSection>
         </FullPageSections>
       </Fullpage>
 

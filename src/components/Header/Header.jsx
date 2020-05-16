@@ -27,8 +27,6 @@ export default class Header extends Component {
         />
         <h1>Yasaman Loghmani</h1>
         <h3>Full-Stack Developer</h3>
-          
-        
       </div>
     )
   }

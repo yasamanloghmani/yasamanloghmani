@@ -1,0 +1,26 @@
+.Skills {
+    width: 80%;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    justify-items: center;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.icon-container {
+    margin: 1em;
+    text-align: center;
+    width: 100px;
+    color: var(--f-color);
+    padding: 13px;
+    border-radius: 5px;
+    background: #e6faf6;
+    box-shadow:  20px 20px 60px #c4d5d1, 
+                 -20px -20px 60px #ffffff;
+}
+
+.icon {
+    font-size: var(--fs-h1);
+    padding:auto 10px;
+    text-align: center;
+}

@@ -2,12 +2,7 @@
     text-align: center;
     color: var(--f-color);
 }
-.Header > h1 {
-    font-family: var(--ff-primary);
-    font-size: var(--fs-h1);
-    text-shadow: 2px 2px 3px #170c4b;
-    margin: 0px;
-}
+
 .Header > h3{
     font-family: var(--ff-secondary);
     font-size: var(--fs-h3);

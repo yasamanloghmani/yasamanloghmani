@@ -9,7 +9,7 @@ export default class About extends Component {
                 <img src='images/yasaman.png' className='yasaman-pic'/>
             </div>
             <div>
-              <h1>About Me</h1>
+              <h2>About Me</h2>
               <p>
               Hi, I'm Yasaman Loghmani and I graduated from General Assembly Software Engineering Immersive program. I am a full-stack developer that translates the geekiness behind ideas bringing to life an aesthetically pleasing and fluid app for users.
 
