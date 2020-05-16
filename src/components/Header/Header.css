@@ -1,0 +1,40 @@
+.Header{
+    text-align: center;
+    color: var(--f-color);
+}
+.Header > h1 {
+    font-family: var(--ff-primary);
+    font-size: var(--fs-h1);
+    text-shadow: 2px 2px 3px #170c4b;
+    margin: 0px;
+}
+.Header > h3{
+    font-family: var(--ff-secondary);
+    font-size: var(--fs-h3);
+    border-right: solid 3px #EB1700;
+    white-space: nowrap;
+    overflow: hidden;
+    margin: 10px auto;
+    color: #FE3D0C;
+    animation: animated-text 4s steps(29,end) 1s 1 normal both,
+             animated-cursor 600ms steps(29,end) infinite;
+}
+
+
+@keyframes animated-text{
+  from{width: 0;}
+  to{width: 460px;}
+}
+
+@keyframes animated-cursor{
+  from{border-right-color: #EB1700;}
+  to{border-right-color: transparent;}
+}
+
+
+@media (max-width : 760px) {
+    .Header > h3{
+        animation: none;
+        border: none;
+    }
+}

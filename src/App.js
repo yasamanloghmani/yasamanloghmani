@@ -1,26 +1,40 @@
-import React from 'react';
-import logo from './logo.svg';
+import React, { Component } from 'react';
+import Fullpage, { FullPageSections, FullpageSection, FullpageNavigation, FullpageCount, FullpageNumber} from '@ap.cx/react-fullpage';
+import Header from './components/Header/Header';
+import NavBar from './components/NavBar/NavBar';
+import About from './components/About/About';
 import './App.css';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
-}
+export default class App extends Component {
+  render () {
+    return (
+      <div>
+        
+        <NavBar />
+        <Fullpage>
+        <FullpageNavigation />
+        <FullPageSections>
+          <FullpageSection style={{
+            backgroundColor: '#e6faf6',
+            padding: '1em',
+          }}>
+            <Header />
+          </FullpageSection>
+          <FullpageSection style={{
+            backgroundColor: '#d2edee',
+            padding: '1em',
+          }} >
+            <About />
+          </FullpageSection>
+          <FullpageSection style={{
+            backgroundColor: '#d0f5fc',
+            padding: '1em',
+          }}>3</FullpageSection>
+        </FullPageSections>
+      </Fullpage>
 
-export default App;
+      </div>
+      
+    )
+  }
+}

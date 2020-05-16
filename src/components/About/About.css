@@ -1,0 +1,41 @@
+.About {
+    height: 70%;
+    margin: 20px;
+    display: grid;
+    grid-template-columns: 0.9fr 1.1fr;
+    text-align: center;
+    padding:20px;
+    justify-items: center;
+    align-items: center;
+}
+
+/* .About >div {
+    
+} */
+
+.yasaman-pic {
+    border-radius: 50%;
+    width:300px;
+    height: auto;
+    background: #d2edee;
+    box-shadow:  20px 20px 60px #a2b6b7, 
+    -20px -20px 60px #ffffff;
+}
+
+
+
+
+@media (max-width : 1024px) {
+    .About {
+        display: block;
+    }
+    .yasaman-pic {
+        width:180px;
+    }
+}
+
+@media (max-width : 760px) {
+    .yasaman-pic {
+        width:120px;
+    }
+}
