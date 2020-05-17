@@ -13,26 +13,36 @@ function Projects(){
             <div>
             {data.map((project, idx) => {
                 return (
-                    <Link to={`/${idx}`} key={idx}>
+                  <div className="project-card">
+                    <a  href={project.url}>
                     <Flippy
                     flipOnHover={true} 
                     flipOnClick={true} 
                     flipDirection="horizontal"
-                    style={{ width: '200px', height: '200px' }}
+                    // style={{ width: '200px', height: '200px' }}
                   >
                     <FrontSide
-                      style={{
-                        backgroundColor: '#41669d',
-                      }}
+                      // style={{
+                      //   backgroundColor: '#41669d',
+                      // }}
                     >
-                      {project.name}
+                      <img src={project.front} ></img>
+                      
                     </FrontSide>
                     <BackSide
-                      style={{ backgroundColor: '#175852'}}>
-                      {project.description}
+                      // style={{ backgroundColor: '#175852'}}
+                      >
+                      <img src={project.back} ></img>
                     </BackSide>
                   </Flippy>
-                  </Link>
+                  </a>
+                  <h3>{project.name}</h3>
+                <p>{project.description}</p>
+                  <ul className='tech-logo'>{project.technologies}</ul>
+                  <button>git</button>
+
+                  </div>
+                    
                 )
                 
             })}

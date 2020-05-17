@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import SocialMedia from '../SocialMedia/SocialMedia';
 import Lottie from 'react-lottie';
 import animationData from './8306-programming-animation.json';
 import './Header.css';
@@ -27,6 +28,7 @@ export default class Header extends Component {
         />
         <h1>Yasaman Loghmani</h1>
         <h3>Full-Stack Developer</h3>
+        <SocialMedia></SocialMedia>
       </div>
     )
   }

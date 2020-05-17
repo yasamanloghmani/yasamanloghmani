@@ -1,14 +1,22 @@
 .About {
-    height: 70%;
     margin: 20px;
     display: grid;
-    grid-template-columns: 0.9fr 1.1fr;
+    grid-template-columns: 0.6fr 1.4fr;
     text-align: center;
     padding:20px;
-    justify-items: center;
-    align-items: center;
+
+}
+.aboutP{
+    width: 80%;
+    margin: 0px auto;
+
 }
 
+.aboutP > p {
+    font-size: 20px;
+    line-height: 2em;
+    text-align: justify;
+}
 
 .yasaman-pic {
     border-radius: 50%;
@@ -22,7 +30,6 @@
 
 
 
-
 @media (max-width : 1024px) {
     .About {
         display: block;
@@ -30,8 +37,12 @@
     .yasaman-pic {
         width:180px;
     }
-    #about p{
+    #about{
         background-color: white;
+    }
+    .aboutP > p {
+        font-size: 16px;
+        line-height: 1.7em;
     }
 }
 
@@ -39,5 +50,12 @@
     .yasaman-pic {
         width:120px;
     }
-    
+    .aboutP > p {
+        font-size: 13px;
+        line-height: 1.4em;
+    }
+    .icons-logo {
+        font-size: 30px;
+        padding:10px;
+    }
 }

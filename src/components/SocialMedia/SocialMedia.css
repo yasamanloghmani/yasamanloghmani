@@ -1,0 +1,12 @@
+.icons-logo {
+    font-size: 50px;
+    padding:20px;
+    color: var(--f-color);
+}
+
+@media (max-width : 760px) {
+    .icons-logo {
+        font-size: 30px;
+        padding:10px;
+    }
+}

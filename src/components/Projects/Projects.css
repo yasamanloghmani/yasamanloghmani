@@ -1,0 +1,19 @@
+.project-card{
+    margin:30px;
+}
+
+img{
+    width: 100%;
+}
+
+.Projects > div {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+    align-items: center;
+}
+
+.tech-logo  {
+    font-size: var(--fs-h3);
+    margin:5px
+}

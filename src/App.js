@@ -30,17 +30,19 @@ export default class App extends Component {
             <About />
           </FullpageSection>
           <FullpageSection style={{
+            backgroundColor: '#deecfc',
+            padding: '1em',
+            overflow : 'scroll'
+          }} >
+            <Projects></Projects>
+          </FullpageSection>
+          <FullpageSection style={{
             backgroundColor: '#B9CEEB',
             padding: '1em',
           }}>
             <Skills />
           </FullpageSection>
-          <FullpageSection style={{
-            backgroundColor: '#d2edee',
-            padding: '1em',
-          }} >
-            <Projects></Projects>
-          </FullpageSection>
+          
         </FullPageSections>
       </Fullpage>
 
