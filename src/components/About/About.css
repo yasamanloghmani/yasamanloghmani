@@ -9,18 +9,15 @@
     align-items: center;
 }
 
-/* .About >div {
-    
-} */
 
 .yasaman-pic {
     border-radius: 50%;
     width:300px;
-    height: auto;
-    background: #d2edee;
-    border: 8px solid #d2edee;
-    box-shadow:  20px 20px 60px #a2b6b7, 
-    -20px -20px 60px #ffffff;
+    height: auto;   
+    border: 8px solid #eaf2f4;
+    background: #eaf2f4;
+    box-shadow:  20px 20px 60px #eaf2f4, 
+             -20px -20px 60px #c9e6ed;
 }
 
 
@@ -33,10 +30,14 @@
     .yasaman-pic {
         width:180px;
     }
+    #about p{
+        background-color: white;
+    }
 }
 
 @media (max-width : 760px) {
     .yasaman-pic {
         width:120px;
     }
+    
 }

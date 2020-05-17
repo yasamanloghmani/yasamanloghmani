@@ -4,30 +4,33 @@ import Header from './components/Header/Header';
 import NavBar from './components/NavBar/NavBar';
 import About from './components/About/About';
 import Skills from './components/Skills/Skills';
+import Projects from './components/Projects/Projects';
 import './App.css';
 
 export default class App extends Component {
+  
   render () {
     return (
       <div>
-        <NavBar />
+        {/* <NavBar /> */}
         <Fullpage>
         <FullpageNavigation />
         <FullPageSections>
           <FullpageSection style={{
-            backgroundColor: '#e6faf6',
+            backgroundColor: '#deecfc',
             padding: '1em',
           }}>
             <Header />
           </FullpageSection>
           <FullpageSection style={{
-            backgroundColor: '#d2edee',
+            backgroundImage: 'url(images/bg.png)',
+            backgroundRepeat : 'no-repeat',
             padding: '1em',
-          }} >
+          }}>
             <About />
           </FullpageSection>
           <FullpageSection style={{
-            backgroundColor: '#e6faf6',
+            backgroundColor: '#B9CEEB',
             padding: '1em',
           }}>
             <Skills />
@@ -36,7 +39,7 @@ export default class App extends Component {
             backgroundColor: '#d2edee',
             padding: '1em',
           }} >
-            projectss
+            <Projects></Projects>
           </FullpageSection>
         </FullPageSections>
       </Fullpage>
