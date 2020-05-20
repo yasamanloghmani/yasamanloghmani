@@ -33,8 +33,8 @@ function Projects(){
                   <p>{project.description}</p>
                   <ul className='tech-logo'>{project.technologies}</ul>
                   </div>
-                  <a className='btn button' href={project.url}>Check out the App</a>
-                  <a className='btn button' href={project.git}>Check out the Code</a>
+                  <a className='btn button' href={project.url}>DEMO</a>
+                  <a className='btn button' href={project.git}>GITHUB</a>
                   </div>
                 )
             })}
