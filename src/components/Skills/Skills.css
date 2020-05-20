@@ -38,7 +38,7 @@
     .Skills {
         grid-template-columns: repeat(6, 1fr);
     }
-    .icon-container {
+    .icon-container, .icon-container:hover {
         width: 60px;
         padding: 7px;
         font-size: 10px;
@@ -55,7 +55,7 @@
     .Skills {
         grid-template-columns: repeat(4, 1fr);
     }
-    .icon-container {
+    .icon-container, .icon-container:hover {
         width: 45px;
         padding: 7px;
         font-size: 10px;
