@@ -4,9 +4,23 @@
     color: var(--f-color);
 }
 
+.icons-logo:hover{
+    color: #B9CEEB;
+}
+
+.gmail {
+    padding: 0px;
+    margin: 0px;
+    color: var(--f-color);
+    font-size: 20px;
+    text-align: center!important;
+}
 @media (max-width : 760px) {
     .icons-logo {
         font-size: 30px;
         padding:10px;
+    }
+    .gmail{
+        font-size: 12px;
     }
 }

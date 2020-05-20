@@ -11,9 +11,7 @@ export default class About extends Component {
             <div className="aboutP">
               <h2>About Me</h2>
               <p>
-              Hi, I'm Yasaman Loghmani and I graduated from General Assembly Software Engineering Immersive program. I am a full-stack developer that translates the geekiness behind ideas bringing to life an aesthetically pleasing and fluid app for users.
-
-              My background in intellectual property law and culinary arts enhanced my ability to articulate in a business context and to provide creative solutions. This allows me to be an organized and focused team player that collaborates for a positive environment seeking challenges and opportunities to grow and improve, while also developing and delivering.
+              Mission-driven full stack developer with a passion for thoughtful UI design. I have more than 5 years of experience in web design and development. My background in Information Technology has allowed me to have a better understanding in computer science and technology. I am passionate about building excellent software that improves the lives of those around me. I consider myself as a determined person, quick learner.
               </p>
               <SocialMedia></SocialMedia>
             </div>

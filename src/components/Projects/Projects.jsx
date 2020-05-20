@@ -9,42 +9,34 @@ function Projects(){
   let data= ProjectsData;
     return (
         <div className='pages Projects'>
-            <h1>Projects</h1>
+            <h2>Projects</h2>
             <div>
             {data.map((project, idx) => {
                 return (
                   <div className="project-card">
-                    <a  href={project.url}>
+                    <a href={project.url}>
                     <Flippy
                     flipOnHover={true} 
                     flipOnClick={true} 
                     flipDirection="horizontal"
-                    // style={{ width: '200px', height: '200px' }}
                   >
-                    <FrontSide
-                      // style={{
-                      //   backgroundColor: '#41669d',
-                      // }}
-                    >
+                    <FrontSide>
                       <img src={project.front} ></img>
-                      
                     </FrontSide>
-                    <BackSide
-                      // style={{ backgroundColor: '#175852'}}
-                      >
+                    <BackSide>
                       <img src={project.back} ></img>
                     </BackSide>
                   </Flippy>
                   </a>
                   <h3>{project.name}</h3>
-                <p>{project.description}</p>
+                  <div className="project-describtion">
+                  <p>{project.description}</p>
                   <ul className='tech-logo'>{project.technologies}</ul>
-                  <button>git</button>
-
                   </div>
-                    
+                  <a className='btn button' href={project.url}>Check out the App</a>
+                  <a className='btn button' href={project.git}>Check out the Code</a>
+                  </div>
                 )
-                
             })}
             </div>
         </div>

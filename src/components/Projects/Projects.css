@@ -1,12 +1,17 @@
 .project-card{
     margin:30px;
+    border-radius: 10px;
+    box-shadow: 4px 4px 10px 0 rgba(10,10,10,.1), -4px -4px 10px rgba(222,236,245,1), 4px 4px 10px 0 rgba(10,10,10,.1) inset, -4px -4px 10px rgba(222,236,245,1) inset;
 }
 
 img{
     width: 100%;
+    border-radius: 10px;
 }
 
 .Projects > div {
+    width: 95%;
+    margin: 0 auto;
     display: grid;
     grid-template-columns: 1fr 1fr;
     justify-items: center;
@@ -16,4 +21,43 @@ img{
 .tech-logo  {
     font-size: var(--fs-h3);
     margin:5px
+}
+.project-describtion {
+    height:180px;
+    padding:15px;
+    overflow-y: scroll;
+}
+.button{
+    background-color: var(--f-color);
+    color: #deecfc;
+    padding: 15px;
+    margin: 10px;
+    font-size: 15px;
+    border-radius: 5px;
+    display: inline-block;
+    text-decoration: none;
+}
+.button:hover{
+    color: white;
+    font-weight: bold;
+}
+
+@media (max-width : 768px) {
+    .Projects > div {
+        display: block;
+        margin: 5px;
+    }
+    .project-describtion {
+        height:130px;
+        padding:10px;
+        overflow-y: scroll;
+    }
+    .button{
+        background-color: var(--f-color);
+        color: #deecfc;
+        padding: 8px;
+        margin: 8px;
+        font-size: 10px;
+    }
+    
 }

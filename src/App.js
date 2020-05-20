@@ -6,6 +6,7 @@ import About from './components/About/About';
 import Skills from './components/Skills/Skills';
 import Projects from './components/Projects/Projects';
 import './App.css';
+import SocialMedia from './components/SocialMedia/SocialMedia';
 
 export default class App extends Component {
   
@@ -41,6 +42,9 @@ export default class App extends Component {
             padding: '1em',
           }}>
             <Skills />
+            <div className='footer'>
+                <SocialMedia />
+            </div>
           </FullpageSection>
           
         </FullPageSections>
