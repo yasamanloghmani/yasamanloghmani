@@ -8,7 +8,7 @@ let ProjectsData = [
       url: "https://coffeebreakapp.herokuapp.com/",
       git: "https://github.com/yasamanloghmani/CoffeeBreak-App",
       description:
-        "The CoffeeBreak App is a MERN Fullstack application where users can track their coffee intake. This Fullstack app uses a React.js and styled-components for Front End with a modified Back End from CoffeeBreak RESTful API seen below. ",
+        "The CoffeeBreak App is a MERN Fullstack application where users can track their coffee intake. This Fullstack app uses a React.js and styled-components for Front End with a modified Back End from CoffeeBreak RESTful API seen below. (Note: This App is not responsive.) ",
       technologies: [<i className="devicon-react-original colored tech-logo"></i>,<i className="devicon-express-original colored tech-logo"></i>,<i className="devicon-nodejs-plain colored tech-logo"></i>, <i className="devicon-mongodb-plain colored tech-logo"></i>, <i className="devicon-sass-original colored tech-logo"></i>, <i className="devicon-heroku-plain colored tech-logo"></i>],
     },
     {
@@ -48,9 +48,29 @@ let ProjectsData = [
       url: "https://yasamanloghmani.github.io/markdown-editor/",
       git: "https://github.com/yasamanloghmani/markdown-editor",
       description:
-        "Participated in Mintbean Hackaton and designed a Markdown editor by using Vanilla JavaScript in less than 4hours. Selected as the winner of the Hackaton.",
+        "Participated in Mintbean Hackaton and designed a Markdown editor by using Vanilla JavaScript in less than 4hours. Selected as the winner of the Hackathon.",
         technologies: [<i className="devicon-javascript-plain colored tech-logo"></i>,<i className="devicon-html5-plain colored tech-logo"></i>,<i className="devicon-css3-plain colored tech-logo"></i>,<i className="devicon-jquery-plain colored tech-logo"></i>,<i className="devicon-git-plain colored tech-logo"></i> ],
       },
+      {
+        name: "Chart Story",
+        front: "/images/projects/chart1.png",
+        back : "/images/projects/chart2.png",
+        url: "https://yasamanloghmani.github.io/googlechart/",
+        git: "https://github.com/yasamanloghmani/googlechart",
+        description:
+          "Participated in Mintbean Hackaton and designed a life story by using Vanilla JavaScript and Google.Charts in less than 4hours. Selected as the winner of the Hackathon. (Note: Not responsive)",
+          technologies: [<i className="devicon-javascript-plain colored tech-logo"></i>,<i className="devicon-html5-plain colored tech-logo"></i>,<i className="devicon-css3-plain colored tech-logo"></i>,<i className="devicon-git-plain colored tech-logo"></i> ],
+        },
+        {
+          name: "Password Generator",
+          front: "/images/projects/pw2.png",
+          back : "/images/projects/pw1.png",
+          url: "https://yasamanloghmani.github.io/PasswordGenerator/",
+          git: "https://github.com/yasamanloghmani/PasswordGenerator",
+          description:
+            "Using react to create a password generator.",
+            technologies: [<i className="devicon-react-original colored  tech-logo"></i>,<i className="devicon-javascript-plain colored tech-logo"></i>,<i className="devicon-html5-plain colored tech-logo"></i>,<i className="devicon-css3-plain colored tech-logo"></i>,<i className="devicon-git-plain colored tech-logo"></i> ],
+          },
   ];
   
   export default ProjectsData;
