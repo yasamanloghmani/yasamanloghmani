@@ -62,13 +62,23 @@ let ProjectsData = [
           technologies: [<i className="devicon-javascript-plain colored tech-logo"></i>,<i className="devicon-html5-plain colored tech-logo"></i>,<i className="devicon-css3-plain colored tech-logo"></i>,<i className="devicon-git-plain colored tech-logo"></i> ],
         },
         {
-          name: "Password Generator",
-          front: "/images/projects/pw2.png",
-          back : "/images/projects/pw1.png",
-          url: "https://yasamanloghmani.github.io/PasswordGenerator/",
-          git: "https://github.com/yasamanloghmani/PasswordGenerator",
+        name: "Password Generator",
+        front: "/images/projects/pw2.png",
+        back : "/images/projects/pw1.png",
+        url: "https://yasamanloghmani.github.io/PasswordGenerator/",
+        git: "https://github.com/yasamanloghmani/PasswordGenerator",
+        description:
+          "Using react to create a password generator.",
+          technologies: [<i className="devicon-react-original colored  tech-logo"></i>,<i className="devicon-javascript-plain colored tech-logo"></i>,<i className="devicon-html5-plain colored tech-logo"></i>,<i className="devicon-css3-plain colored tech-logo"></i>,<i className="devicon-git-plain colored tech-logo"></i> ],
+        },
+        {
+          name: "Markdown Editor",
+          front: "/images/projects/md1.png",
+          back : "/images/projects/md2.png",
+          url: "https://yasamanloghmani.github.io/markdown-react/",
+          git: "https://github.com/yasamanloghmani/markdown-react",
           description:
-            "Using react to create a password generator.",
+            "Participated in Mintbean Hackaton and designed a Markdown editor by using React.js , React.ace, styled-components and React-showdown in less than 4hours. Came in the second place of the Hackathon.",
             technologies: [<i className="devicon-react-original colored  tech-logo"></i>,<i className="devicon-javascript-plain colored tech-logo"></i>,<i className="devicon-html5-plain colored tech-logo"></i>,<i className="devicon-css3-plain colored tech-logo"></i>,<i className="devicon-git-plain colored tech-logo"></i> ],
           },
   ];
