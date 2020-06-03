@@ -81,6 +81,15 @@ let ProjectsData = [
             "Participated in Mintbean Hackaton and designed a Markdown editor by using React.js , React.ace, styled-components and React-showdown in less than 4hours. Came in the second place of the Hackathon.",
             technologies: [<i className="devicon-react-original colored  tech-logo"></i>,<i className="devicon-javascript-plain colored tech-logo"></i>,<i className="devicon-html5-plain colored tech-logo"></i>,<i className="devicon-css3-plain colored tech-logo"></i>,<i className="devicon-git-plain colored tech-logo"></i> ],
           },
-  ];
+          {
+            name: "Piano paper.js",
+            front: "/images/projects/piano1.png",
+            back : "/images/projects/piano2.png",
+            url: "https://yasamanloghmani.github.io/animation-game/",
+            git: "https://github.com/yasamanloghmani/animation-game",
+            description:
+              "Participated in Mintbean Hackaton and designed a animated piano by using Paper.js, Vanilla JS, HTML, CSS in less than 4hours. Selected as the winner of the Hackathon.",
+              technologies: [<i className="devicon-javascript-plain colored tech-logo"></i>,<i className="devicon-html5-plain colored tech-logo"></i>,<i className="devicon-css3-plain colored tech-logo"></i>,<i className="devicon-git-plain colored tech-logo"></i> ],
+            },        ];
   
   export default ProjectsData;
