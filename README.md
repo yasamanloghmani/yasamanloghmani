@@ -1,4 +1,4 @@
-Yasaman Loghmani Online Portfolio [Create React App](https://yasamanloghmani.com).
+# [Yasaman Loghmani Online Portfolio](https://yasamanloghmani.com)
 This is my online portfolio. Using ReactJs and deployed with AWS Amplify.
 
 ## Technologies / Modules / Frameworks
