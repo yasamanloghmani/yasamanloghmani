@@ -4,8 +4,8 @@ This is my online portfolio. Using ReactJs and AWS.
 ## Technologies / Modules / Frameworks
 - ReactJs
 - AWS (Amazon Web Service)
-- react-fullpage
-- react-flippy
+- React-fullpage
+- React-flippy
 - Json
 
 
