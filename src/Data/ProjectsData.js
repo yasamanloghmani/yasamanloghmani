@@ -90,6 +90,18 @@ let ProjectsData = [
             description:
               "Participated in Mintbean Hackaton and designed a animated piano by using Paper.js, Vanilla JS, HTML, CSS in less than 4hours. Selected as the winner of the Hackathon.",
               technologies: [<i className="devicon-javascript-plain colored tech-logo"></i>,<i className="devicon-html5-plain colored tech-logo"></i>,<i className="devicon-css3-plain colored tech-logo"></i>,<i className="devicon-git-plain colored tech-logo"></i> ],
-            },        ];
+            },
+            {
+              name: "Color Cute",
+              front: "/images/projects/pallet1.png",
+              back : "/images/projects/pallete2.png",
+              url: "https://yasamanloghmani.github.io/ColorPaletteGenerator/",
+              git: "https://github.com/yasamanloghmani/ColorPaletteGenerator",
+              description:
+                "This application is a color palette generator, you can get the different variation of colors or create your own color palette.",
+                technologies: [<i className="devicon-react-original colored  tech-logo"></i>,<i className="devicon-javascript-plain colored tech-logo"></i>,<i className="devicon-html5-plain colored tech-logo"></i>,<i className="devicon-css3-plain colored tech-logo"></i>,<i className="devicon-git-plain colored tech-logo"></i> ],
+              }, 
+          
+          ];
   
   export default ProjectsData;
