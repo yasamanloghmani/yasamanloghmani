@@ -1,7 +1,7 @@
 .Skills {
     width: 90%;
     display: grid;
-    grid-template-columns: repeat(9, 1fr);
+    grid-template-columns: repeat(10, 1fr);
     justify-items: center;
     align-items: center;
     margin: 0 auto;
@@ -9,7 +9,7 @@
 .icon-container {
     margin: 1em;
     text-align: center;
-    width: 80px;
+    width: 70px;
     color: var(--f-color);
     padding: 10px;
     border-radius: 15px;
@@ -19,11 +19,11 @@
 }
 
 .icon-container:hover{
-    width: 90px;
+    width: 75px;
 }
 
 .icon {
-    font-size: var(--fs-h2);
+    font-size: var(--fs-h3);
     padding:auto 10px;
     text-align: center;
 }
@@ -53,10 +53,26 @@
 
 @media (max-width : 760px) {
     .Skills {
-        grid-template-columns: repeat(4, 1fr);
+        grid-template-columns: repeat(7, 1fr);
     }
     .icon-container, .icon-container:hover {
         width: 45px;
+        padding: 7px;
+        font-size: 10px;
+    }
+    .icon {
+        font-size: var(--fs-h3);
+        padding:auto 7px;
+    }
+    
+}
+
+@media (max-width : 375px) {
+    .Skills {
+        grid-template-columns: repeat(4, 1fr);
+    }
+    .icon-container, .icon-container:hover {
+        width: 40px;
         padding: 7px;
         font-size: 10px;
     }

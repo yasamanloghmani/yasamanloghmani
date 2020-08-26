@@ -8,7 +8,7 @@
 	--f-color : #1B0E58;
 	--fs-h1: 3rem;
 	--fs-h2: 2.25rem;
-	--fs-h3: 1.0rem;
+	--fs-h3: 1.9rem;
 	--fs-body: 1rem;
 
 	--box-shadow: 0.25em 0.25em 0.75em rgba(170, 170, 170, 0.65),
@@ -31,7 +31,7 @@
 	:root {
 		--fs-h1: 3.7rem;
 		--fs-h2: 2.75rem;
-		--fs-h3: 1.25rem;
+		--fs-h3: 2.15rem;
     	--fs-body: 1.125rem;
 	}
 }

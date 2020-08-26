@@ -1,5 +1,7 @@
 import React from "react";
-
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faJira} from '@fortawesome/free-brands-svg-icons';
+import { faAws} from '@fortawesome/free-brands-svg-icons';
 let languagesData = [
 	{
 		name: "HTML5",
@@ -59,9 +61,7 @@ let languagesData = [
 	},
 	{
 		name: "AWS",
-		icon: (
-			<i className="devicon-amazonwebservices-original  icon"></i>
-		),
+		icon: <FontAwesomeIcon icon={ faAws } className='icon' />,
 	},
 	{
 		name: "Git",
@@ -74,6 +74,10 @@ let languagesData = [
 	{
 		name: "Wordpress",
 		icon: <i className="devicon-wordpress-plain  icon"></i>,
+	},
+	{
+		name: "Jira",
+		icon:<FontAwesomeIcon icon={ faJira } className='icon' />,
 	},
 ];
 

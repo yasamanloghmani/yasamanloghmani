@@ -40,6 +40,8 @@ export default class App extends Component {
           <FullpageSection style={{
             backgroundColor: '#B9CEEB',
             padding: '1em',
+            paddingBottom: '100px',
+            overflow : 'scroll'
           }}>
             <Skills />
             <div className='footer'>
