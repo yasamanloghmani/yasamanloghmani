@@ -100,7 +100,17 @@ let ProjectsData = [
               description:
                 "This application is a color palette generator, you can get the different variation of colors or create your own color palette.",
                 technologies: [<i className="devicon-react-original colored  tech-logo"></i>,<i className="devicon-javascript-plain colored tech-logo"></i>,<i className="devicon-html5-plain colored tech-logo"></i>,<i className="devicon-css3-plain colored tech-logo"></i>,<i className="devicon-git-plain colored tech-logo"></i> ],
-              }, 
+              },
+              {
+                name: "Tailwood CSS",
+                front: "/images/projects/tail1.png",
+                back : "/images/projects/tail2.png",
+                url: "https://tailwood.vercel.app/",
+                git: "https://github.com/yasamanloghmani/tailwood",
+                description:
+                  "Tailwind is a low-level CSS library that lets you create your own UI components from scratch. It is a powerful building block rather than a full component library. In this challenge, I built, refined and explained my own design system!",
+                  technologies: [<i className="devicon-react-original colored  tech-logo"></i>,<i className="devicon-css3-plain colored tech-logo"></i>,<i className="devicon-git-plain colored tech-logo"></i> ],
+                },
           
           ];
   
