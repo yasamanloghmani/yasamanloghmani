@@ -56,3 +56,17 @@
 .nav__theme:focus {
 	outline: none;
 }
+
+
+@media (max-width : 480px) {
+    
+.nav__logo {
+	display: none;
+}
+.nav{
+	display: block;
+}
+.nav__item{
+	margin-left: 10px;
+}
+}
