@@ -61,3 +61,56 @@ h3 span{
   from{border-right-color: white;}
   to{border-right-color: transparent;}
 }
+
+
+
+
+@media (max-width : 1024px) {
+
+  .Header svg {
+    width: 80%!important;
+    height: 80%!important;
+  }
+  .Header h1{
+      font-size: 30px;
+  }
+  @keyframes animated-text{
+    from{width: 0;}
+    to{width: 400px;}
+  }
+ 
+}
+
+@media (max-width : 768px) {
+  .Header{
+    display: block;
+  }
+  .animation{
+    display: none;
+  }
+  
+  
+}
+
+@media (max-width : 375px) {
+  
+  .Header{
+    padding-left: 30px;
+  }
+  .Header h1{
+    font-size: 22px;
+}
+  @keyframes animated-text{
+    from{width: 0;}
+    to{width: 300px;}
+  }
+  .Header h3{
+    font-size: 16px;
+    line-height: 1.9em;
+  }
+
+  h3 span{
+    font-size: 20px;
+    font-weight: 500;
+  }
+}

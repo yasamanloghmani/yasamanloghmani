@@ -101,7 +101,7 @@ img{
     /* width:auto; */
     margin: 0px auto;
     display: grid;
-    width: 40%!important;
+    width: 50%!important;
     grid-template-columns: 1fr 1fr;
 }
 .projectsBtn> h4:hover{
@@ -109,25 +109,69 @@ img{
     color: #fe4955!important;
 }
 
+@media (max-width : 1024px) {
+    .projectsBtn{
+   
+        width: 65%!important;
+  
+    }
+    .project-describtion{
+        height: 250px;
+    }
+   
+}
+  
 @media (max-width : 768px) {
-    .Projects > div {
+    .project-card{
         display: block;
-        margin: 5px;
     }
-    .project-describtion {
-        height:130px;
-        padding:10px;
-        overflow-y: scroll;
-    }
-    .button{
-        background-color: var(--f-color);
-        color: #deecfc;
-        padding: 8px;
-        margin: 8px;
-        font-size: 10px;
+    .projectsBtn{
+
+        width: 90%!important;
     }
     
+
 }
+  
+@media (max-width : 375px) {
+    .projectsBtn{
 
-
-
+        width: 100%!important;
+    }
+    .projectsBtn > h4{
+        border: 1px solid #ff4a57!important;
+      padding: 8px 20px;
+      font-size: 8px;  
+     
+    }
+    .project-card{
+        margin: 0px;
+        margin-bottom: 20px;
+        width: 70%;
+    }
+    .Projects{
+        padding: 10px;
+    }
+    .Projects > div{
+        margin: 0px;
+    }
+    .tech-logo  {
+        text-align: left;
+        font-size: 16px;
+        margin:0px;
+    }
+    .project-describtion {
+        height:220px;
+        padding:5px;
+    }
+    .button{
+        border: 1px solid #ff4a57!important;     
+      font-weight: 500;
+      padding: 5px 15px; 
+      font-size: 8px;  
+    }
+    .projectTitle{
+       
+        font-size: 16px;
+    }
+}

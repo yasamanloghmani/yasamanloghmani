@@ -49,26 +49,23 @@
     font-size: 36px;
     padding-bottom: 50px;
 }
+
+
+
 @media (max-width : 1024px) {
     .Skills {
         grid-template-columns: repeat(6, 1fr);
     }
-    .icon-container, .icon-container:hover {
-        width: 60px;
-        padding: 7px;
-        font-size: 10px;
-    }
+ 
     .icon {
-        font-size: var(--fs-h2);
-        padding:auto 10px;
-        text-align: center;
+        font-size: 30px;
     }
    
 }
 
-@media (max-width : 760px) {
+@media (max-width : 768px) {
     .Skills {
-        grid-template-columns: repeat(7, 1fr);
+        grid-template-columns: repeat(5, 1fr);
     }
     .icon-container, .icon-container:hover {
         width: 45px;
@@ -76,7 +73,7 @@
         font-size: 10px;
     }
     .icon {
-        font-size: var(--fs-h3);
+        font-size: 24px;
         padding:auto 7px;
     }
     
@@ -84,7 +81,7 @@
 
 @media (max-width : 375px) {
     .Skills {
-        grid-template-columns: repeat(4, 1fr);
+        grid-template-columns: repeat(3, 1fr);
     }
     .icon-container, .icon-container:hover {
         width: 40px;

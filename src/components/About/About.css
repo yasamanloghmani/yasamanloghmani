@@ -37,3 +37,36 @@
     background-repeat: no-repeat;
 }
 
+
+
+@media (max-width : 1024px) {
+   .About{
+       grid-template-columns: 0.5fr 2fr;
+   }
+   .yasaman-pic {
+    width: 300px;
+    height: 550px;
+    
+}
+   
+}
+
+@media (max-width : 768px) {
+    
+    .About {
+        display: block;
+    }
+    .yasaman-pic{
+        display: none;
+    }
+
+}
+
+@media (max-width : 375px) {
+
+    .aboutP > p {
+        font-size: 12px;
+
+    }
+    
+}

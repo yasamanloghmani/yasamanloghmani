@@ -26,7 +26,7 @@ export default class Header extends Component {
           <h3> <span>Full-Stack developer</span> <br/> with more than 5 years experience in web design​</h3>
           <a className='portfolioLink' href='#portfolio'>My Portfolio</a>
         </div>
-        <div>
+        <div className='animation'>
           <Lottie options={defaultOptions}
               height={400}
               width={500}
