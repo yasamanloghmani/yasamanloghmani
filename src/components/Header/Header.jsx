@@ -19,16 +19,23 @@ export default class Header extends Component {
       }
     };
     return (
-      <div  className='pages Header'>
-        <Lottie options={defaultOptions}
-              height={350}
-              width={350}
+      <div  className='Header' id='main'>
+        <div >
+          <SocialMedia></SocialMedia>
+          <h1>I am Yasaman Loghmani</h1>
+          <h3> <span>Full-Stack developer</span> <br/> with more than 5 years experience in web design​</h3>
+          <a className='portfolioLink' href='#portfolio'>My Portfolio</a>
+        </div>
+        <div>
+          <Lottie options={defaultOptions}
+              height={400}
+              width={500}
               isStopped={this.state.isStopped}
               isPaused={this.state.isPaused}
         />
-        <h1>Yasaman Loghmani</h1>
-        <h3>Full-Stack Developer</h3>
-        <SocialMedia></SocialMedia>
+        </div>
+        
+        
       </div>
     )
   }

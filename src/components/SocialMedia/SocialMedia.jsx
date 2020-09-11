@@ -12,7 +12,6 @@ export default class SocialMedia extends Component {
             <a href='https://linkedin.com/in/yasamanloghmani' target="_blank"><FontAwesomeIcon className='icons-logo' icon={faLinkedin} /></a>
             <a href='https://github.com/yasamanloghmani' target="_blank"><FontAwesomeIcon className='icons-logo' icon={faGithub} /></a>
             <a href='./files/YasamanLoghmani-Resume .pdf' target="_blank"><FontAwesomeIcon className='icons-logo' icon={faFilePdf} /></a>
-            <p className='gmail'>yasiloghmani@gmail.com</p>
         </div>
     )
  } }

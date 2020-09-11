@@ -1,0 +1,19 @@
+.socialicons{
+    width: fit-content;
+    margin: 0px auto;
+    padding-bottom: 80px;
+}
+.Footer{
+    background-color: #121526;
+}
+.Footer span {
+    text-align: left;
+    color: #fe4955;
+    font-weight: 500;
+}
+.Footer  p {
+    font-size: 20px;
+    line-height: 2em;
+    text-align: justify;
+    color: white;
+}

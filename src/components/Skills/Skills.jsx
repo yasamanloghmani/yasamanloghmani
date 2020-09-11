@@ -8,7 +8,7 @@ export default function Skills() {
     let data = SkillsData;
 
     return (
-        <div className='pages skillpage'>
+        <div className='skillpage' id='skills'>
             <h2 className='skills-header'>My Skills</h2>
             <div className="Skills">
                 {data.map((icon, idx) => {

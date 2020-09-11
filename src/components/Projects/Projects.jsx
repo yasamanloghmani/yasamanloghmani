@@ -1,40 +1,59 @@
-import React, { Component } from 'react';
+import React , { useState }  from 'react';
 import {Link} from 'react-router-dom';
 import './Projects.css';
 import ProjectsData from '../../Data/ProjectsData';
-import Flippy, { FrontSide, BackSide } from 'react-flippy';
+import HackathonData from '../../Data/HackathonData';
+// import
 
 
 function Projects(){
-  let data= ProjectsData;
+  let dataa = ProjectsData;
+  const [data, setData] = useState(dataa);
+  function setpropject() {
+    setData(ProjectsData);
+  }
+  function sethackathon() {
+    setData(HackathonData);
+  }
     return (
-        <div className='pages Projects'>
-            <h2>Projects</h2>
+        <div className='Projects' id="portfolio">
+          <h2>Portfolio</h2>
+          <div className='projectsBtn'>
+             <h4 onClick={setpropject}>Personal Projects</h4>
+            <h4 onClick={sethackathon}>Hackathon Projects</h4>
+          </div>
+            
             <div>
             {data.map((project, idx) => {
                 return (
                   <div className="project-card">
                     <a href={project.url}>
-                    <Flippy
+                    {/* <Flippy
                     flipOnHover={true} 
                     flipOnClick={true} 
                     flipDirection="horizontal"
                   >
-                    <FrontSide>
+                    <FrontSide> */}
                       <img src={project.front} ></img>
-                    </FrontSide>
+                    {/* </FrontSide>
                     <BackSide>
                       <img src={project.back} ></img>
                     </BackSide>
-                  </Flippy>
+                  </Flippy> */}
                   </a>
-                  <h3>{project.name}</h3>
+                  <div>
+                  <h3 className='projectTitle'>{project.name}</h3>
                   <div className="project-describtion">
                   <p>{project.description}</p>
                   <ul className='tech-logo'>{project.technologies}</ul>
                   </div>
+                  <div className='textCenter'>
                   <a className='btn button' href={project.url}>DEMO</a>
                   <a className='btn button' href={project.git}>GITHUB</a>
+                  </div>
+                  
+                  </div>
+                  
                   </div>
                 )
             })}

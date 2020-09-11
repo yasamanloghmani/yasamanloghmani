@@ -67,10 +67,10 @@ let languagesData = [
 		name: "Git",
 		icon: <i className="devicon-git-plain  icon"></i>,
 	},
-	{
-		name: "Typescript",
-		icon: <i className="devicon-typescript-plain  icon"></i>,
-	},
+	// {
+	// 	name: "Typescript",
+	// 	icon: <i className="devicon-typescript-plain  icon"></i>,
+	// },
 	{
 		name: "Wordpress",
 		icon: <i className="devicon-wordpress-plain  icon"></i>,

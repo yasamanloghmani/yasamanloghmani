@@ -1,17 +1,27 @@
 .About {
-    margin: 20px;
+    
+    background-color: #23263a;
     display: grid;
-    grid-template-columns: 0.6fr 1.4fr;
+    grid-template-columns: 1fr 1.4fr;
     text-align: center;
     padding:20px;
-
+    color: white;
+    padding-top:80px;
 }
 .aboutP{
     width: 80%;
     margin: 0px auto;
 
 }
-
+.aboutP h2{
+    color: #fe4955;
+    font-size: 36px;
+}
+.aboutP span {
+    text-align: left;
+    color: #fe4955;
+    font-weight: 500;
+}
 .aboutP > p {
     font-size: 20px;
     line-height: 2em;
@@ -19,43 +29,11 @@
 }
 
 .yasaman-pic {
-    border-radius: 50%;
-    width:300px;
-    height: auto;   
-    border: 8px solid #eaf2f4;
-    background: #eaf2f4;
-    box-shadow:  20px 20px 60px #eaf2f4, 
-             -20px -20px 60px #c9e6ed;
+    width: 400px;
+    margin: 0px auto;
+    height: 550px;
+    background-image:linear-gradient(to bottom, rgba(255, 255, 255, 0), rgba(35,38,58, 0.5)), url(./yasaman.png);
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
-
-
-@media (max-width : 1024px) {
-    .About {
-        display: block;
-    }
-    .yasaman-pic {
-        width:180px;
-    }
-    #about{
-        background-color: white;
-    }
-    .aboutP > p {
-        font-size: 16px;
-        line-height: 1.7em;
-    }
-}
-
-@media (max-width : 760px) {
-    .yasaman-pic {
-        width:120px;
-    }
-    .aboutP > p {
-        font-size: 13px;
-        line-height: 1.4em;
-    }
-    .icons-logo {
-        font-size: 30px;
-        padding:10px;
-    }
-}

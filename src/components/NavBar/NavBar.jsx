@@ -6,7 +6,7 @@ export default class NavBar extends Component {
     render(){
         return(
             <nav className="nav">
-            <a href="#intro" className="nav__logo--link">
+            <a href="#main" className="nav__logo--link">
                 
                     <img
                         src="/images/logo.png"
@@ -15,12 +15,16 @@ export default class NavBar extends Component {
                     />
             </a>
             <Scrollspy
-                items={["about","skills", "projects", "contact"]}
+                items={["portfolio","about", "skills", "contact"]}
                 currentClassName="is-current"
                 offset={0}
                 className="nav__list"
             >
-                <li className="nav__item"></li>
+                <li className="nav__item">
+                    <a href="#portfolio" className="nav__link">
+                        <span>Portfolio</span>
+                    </a>
+                </li>
                 <li className="nav__item">
                     <a href="#about" className="nav__link">
                         <span>About</span>
@@ -31,11 +35,7 @@ export default class NavBar extends Component {
                         <span>Skills</span>
                     </a>
                 </li>
-                <li className="nav__item">
-                    <a href="#projects" className="nav__link">
-                        <span>Projects</span>
-                    </a>
-                </li>
+                
                 <li className="nav__item">
                     <a href="#contact" className="nav__link">
                         <span>Contact</span>
