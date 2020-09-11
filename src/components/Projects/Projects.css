@@ -75,6 +75,8 @@ img{
     height:220px;
     padding:15px;
     overflow-y: scroll;
+    -ms-overflow-style: none!important;  /* IE and Edge */
+	scrollbar-width: none!important;  /* Firefox */
 }
 .button{
     border: 2px solid #ff4a57!important;
