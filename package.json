@@ -18,7 +18,7 @@
     "react-flippy": "^0.1.5",
     "react-lottie": "^1.2.3",
     "react-router-dom": "^5.2.0",
-    "react-scripts": "3.4.1",
+    "react-scripts": "5.0.1",
     "react-scrollspy": "^3.4.2",
     "react-sticky": "^6.0.3"
   },
